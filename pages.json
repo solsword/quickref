@@ -1,0 +1,20 @@
+[
+    {
+        "name": "All Functions",
+        "type": "all"
+    },
+    {
+        "name": "Week 1",
+        "type": "file",
+        "filename": "week1",
+        "missing": "All Functions"
+    },
+    {
+        "name": "Basic Functions",
+        "type": "specific",
+        "missing": "append",
+        "concepts": [
+            "print"
+        ]
+    }
+]

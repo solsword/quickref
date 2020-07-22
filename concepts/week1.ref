@@ -1,0 +1,48 @@
+# print
+
+The `print` function causes text to be displayed as part of the program
+output. You may give it any number of arguments, and it will
+automatically covert each one to a string, **putting a space in between
+them**. At the end of the output, a "newline character" is printed so that
+subsequent output will appear below the line that was printed.
+
+## Examples
+
+```
+>>> print(1, 2, 3)
+1 2 3
+>>>
+```
+
+```
+>>> print("1" + "2" + "3")
+123
+>>>
+```
+
+(Note here we create one combined string for print to work with.)
+
+
+## Advanced
+
+- If you don't want a space to appear between different arguments, you
+  can use the `sep=` keyword argument to specify a different separator
+  (use the empty string to remove separation entirely).
+- If you don't want a newline to appear at the end of the output, you can
+  use the `end=` keyword argument to specify a different ending string
+  (use the empty string to avoid adding anything to the end).
+
+## Advanced Examples
+
+```
+>>> print(1, 2, sep='|')
+1|2
+>>>
+```
+
+```
+>>> print(1, 2, end='#')
+1 2#>>>
+```
+(Notice how no newline is printed, so the next input prompt happens on
+the same line.)
